@@ -1,0 +1,370 @@
+/* reset -------------------------- */
+html,
+body,
+div,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+dfn,
+del,
+p,
+blockquote,
+fieldset,
+input,
+textarea,
+select,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+button,
+canvas,
+video {
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+address,
+caption,
+cite,
+code,
+th,
+dfn,
+del {
+    font-weight: normal;
+    font-style: normal;
+}
+ul,
+ol {
+    list-style: none;
+}
+fieldset,
+img {
+    border: none;
+}
+caption,
+th {
+    text-align: left;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button {
+    cursor: pointer;
+    line-height: normal;
+}
+button,
+input {
+    line-height: normal;
+}
+input[type="hidden"],
+[hidden],
+.hidden {
+    display: none;
+}
+textarea {
+    overflow: auto;
+    resize: none;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section,
+.clearfix {
+    display: block;
+}
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+a > img {
+    vertical-align: bottom;
+}
+strong,
+b {
+    font-weight: bold;
+}
+em,
+i {
+    font-style: italic;
+}
+del {
+    text-decoration: line-through;
+}
+:focus {
+    outline: none;
+}
+
+
+/* tools -------------------------- */
+.clear {
+    clear: both;
+    display: block;
+    line-height: 0;
+    height: 0;
+    font-size: 0;
+}
+.clearfix:after,
+.wrapper:after,
+.wrap:after,
+aside:after,
+section:after,
+article:after,
+.text:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+    font-size: 0;
+}
+.align-left {
+    float: left !important;
+}
+.align-right {
+    float: right !important;
+}
+.overflow-hidden {
+    overflow: hidden;
+    display: block;
+}
+
+
+/* common -------------------------- */
+html {
+    height: 100%;
+    background: #ffffff;
+}
+.namma_body {
+    height: 100%;
+    font-family: 'Lobster', regular;
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 1.42857;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+}
+.main_block {
+    min-height: 100%;
+    overflow: hidden;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#experience-blocks{
+background: #ffb300; /* Old browsers */
+background: -moz-linear-gradient(top, #ffb300 26%, #ff8f00 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffb300 26%,#ff8f00 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffb300 26%,#ff8f00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb300', endColorstr='#ff8f00',GradientType=0 ); /* IE6-9 */
+}
+.namma_image{
+	height: 494px;
+}
+.main_text {
+    color: #ffffff;
+    font-family: "Lobster",regular;
+    font-size: 29pt;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 257px;
+    margin-top: 84px;
+}
+.calcutta_text {
+    font-size: 50pt;
+    margin-left: -48px;
+}
+.second_text {
+    color: #ffffff;
+    font-family: 'BariolRegular' !important;
+    font-size: 14.5pt;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    text-align: center;
+}
+.qoute_text {
+    border-left: 0 none;
+    color: #ffffff;
+    font-family: 'BariolRegular' !important;
+    font-size: 10.8pt;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 0;
+    padding: 26px 112px 26px 135px;
+}
+.logo1{
+	padding-left: 18px;
+    padding-top: 10px;
+}
+.logo2{
+	padding-left: 48px;
+    padding-top: 20px;
+}
+.logo3{
+	padding-top: 10px;
+}
+#typography{
+	background-color: #333333;
+	margin-top: 100px;
+	padding-bottom: 100px;
+}
+.logo_circle_image{
+	padding-top: 60px;
+}
+.logo_text{
+	border: 0 none;
+    color: #ffffff;
+    font-family: 'BariolRegular' !important;
+    font-weight: 500;
+    font-style: normal;
+	font-variant: normal;
+    font-size: 12pt;
+    padding: 10px 49px;
+}
+.logo_block{
+	 padding-top: 170px;
+}
+.typo_image{
+	margin-left: 75px;
+}
+.box_image{
+	padding-top: 100px;
+}
+.box_sheet_image{
+	width: 80%;
+}
+.line_text{
+	padding-top: 50px;
+}
+.lobster_text{
+	font-family: 'Lobster',regular;
+	font-style: normal;
+	font-variant: normal;
+	color: #ffffff;
+	line-height: 0;
+}
+.bariol_text{
+	padding-top: 50px;
+	font-family: 'BariolRegular' !important;
+	font-weight: 500;
+	font-style: normal;
+	font-variant: normal;
+	color: #ffffff;
+	line-height: 0;
+}
+.line_place{
+	padding-left: 47px;
+}
+#inspiration{
+	background-color: #c4c4c4;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.inspire_section{
+	padding-top: 60px;
+}
+#simple{
+	background-color: #ffffff;
+	padding-top: 100px;
+	/*padding-bottom: 100px;*/
+}
+.main_design {
+    background: #ECB401 no-repeat scroll center center / cover ;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.main_design::before {
+    background-size: cover;
+    border-right: 1320px solid transparent;
+    border-top: 267px solid white;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.main_design::after {
+    background-size: cover;
+    border-bottom: 331px solid white;
+    border-left: 1315px solid transparent;
+    bottom: 0;
+    content: "";
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.Fresh {
+    color: #ffffff;
+    margin-bottom: 145px;
+    margin-top: 250px;
+    text-align: center;
+}
+.tilt_image{
+	-webkit-transform: rotate(1deg);
+   -moz-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+     -o-transform: rotate(1deg);
+        transform: rotate(1deg);
+}
+.menu_Card {
+    height: 685px;
+    margin-bottom: -148px;
+}
+
+ .main_design_text{
+ 	font-family: 'BariolRegular' !important;
+ 	border-left: 0;
+ 	font-size: 15.5px;
+    margin: -98px 0 20px;
+    padding: 6px 33px;   
+    text-align: left;
+}
